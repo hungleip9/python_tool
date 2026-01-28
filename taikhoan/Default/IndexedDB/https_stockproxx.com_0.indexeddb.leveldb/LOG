@@ -1,0 +1,15 @@
+2026/01/28-17:00:17.164 2eec Reusing MANIFEST D:\ToolPython\taikhoan\Default\IndexedDB\https_stockproxx.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/28-17:00:17.164 2eec Recovering log #16
+2026/01/28-17:00:17.164 2eec Reusing old log D:\ToolPython\taikhoan\Default\IndexedDB\https_stockproxx.com_0.indexeddb.leveldb/000016.log 
+2026/01/28-17:00:17.165 2eec Delete type=2 #15
+2026/01/28-17:00:17.205 2708 Level-0 table #21: started
+2026/01/28-17:00:17.207 2708 Level-0 table #21: 655 bytes OK
+2026/01/28-17:00:17.208 2708 Delete type=0 #16
+2026/01/28-17:00:17.209 2eec Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 154 : 1
+2026/01/28-17:00:17.209 2eec Compacting 1@0 + 1@1 files
+2026/01/28-17:00:17.210 2eec Generated table #22@0: 42 keys, 1242 bytes
+2026/01/28-17:00:17.211 2eec Compacted 1@0 + 1@1 files => 1242 bytes
+2026/01/28-17:00:17.211 2eec compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/28-17:00:17.212 2eec Delete type=2 #21
+2026/01/28-17:00:17.212 2eec Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 154 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/28-17:00:18.682 2424 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

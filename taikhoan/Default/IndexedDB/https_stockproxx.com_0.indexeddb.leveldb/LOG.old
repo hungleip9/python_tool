@@ -1,0 +1,25 @@
+2026/01/28-16:59:43.190 2844 Reusing MANIFEST D:\ToolPython\taikhoan\Default\IndexedDB\https_stockproxx.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/28-16:59:43.190 2844 Recovering log #9
+2026/01/28-16:59:43.190 2844 Reusing old log D:\ToolPython\taikhoan\Default\IndexedDB\https_stockproxx.com_0.indexeddb.leveldb/000009.log 
+2026/01/28-16:59:43.191 2844 Delete type=2 #8
+2026/01/28-16:59:43.222 17cc Level-0 table #14: started
+2026/01/28-16:59:43.224 17cc Level-0 table #14: 662 bytes OK
+2026/01/28-16:59:43.225 17cc Delete type=0 #9
+2026/01/28-16:59:43.226 2844 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 116 : 1
+2026/01/28-16:59:43.226 2844 Compacting 1@0 + 1@1 files
+2026/01/28-16:59:43.227 2844 Generated table #15@0: 42 keys, 1243 bytes
+2026/01/28-16:59:43.227 2844 Compacted 1@0 + 1@1 files => 1243 bytes
+2026/01/28-16:59:43.228 2844 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/28-16:59:43.229 2844 Delete type=2 #14
+2026/01/28-16:59:43.229 2844 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 116 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/28-16:59:45.526 17cc Level-0 table #17: started
+2026/01/28-16:59:45.536 17cc Level-0 table #17: 656 bytes OK
+2026/01/28-16:59:45.538 17cc Delete type=2 #11
+2026/01/28-16:59:45.538 17cc Delete type=0 #13
+2026/01/28-16:59:45.539 2844 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 135 : 1
+2026/01/28-16:59:45.539 2844 Compacting 1@0 + 1@1 files
+2026/01/28-16:59:45.540 2844 Generated table #18@0: 42 keys, 1242 bytes
+2026/01/28-16:59:45.540 2844 Compacted 1@0 + 1@1 files => 1242 bytes
+2026/01/28-16:59:45.541 2844 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/28-16:59:45.547 2844 Delete type=2 #17
+2026/01/28-16:59:45.548 2844 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 135 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
