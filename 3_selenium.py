@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-tk = 'D:\\ToolPython\\taikhoan'
+tk = 'D:\\taikhoan'
 
 chrome_options = webdriver.ChromeOptions()
 
@@ -29,15 +29,17 @@ try:
 except:
   print('Đã đăng nhập rồi!')
   pass
-
-img = 'D:\\ToolPython\\images\\2.jpg'
+sleep(2)
+img = 'D:\\images\\2.jpg'
 driver.get('https://www.pinterest.com/pin-creation-tool/')
 sleep(4)
 try:
-  driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div/div[3]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[1]/div/input').send_keys(img)
+    driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div/div[3]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[1]/div/input').send_keys(img)
 except:
-  driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div/div[3]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div/input').send_keys(img)
-  pass
+    try:
+        driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div/div[3]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div/input').send_keys(img)
+    except:
+        pass
 sleep(2)
 # title
 driver.find_element(By.ID, 'storyboard-selector-title').send_keys('Đây là tiêu đề')
